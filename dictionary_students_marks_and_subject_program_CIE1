@@ -18,9 +18,8 @@ for i in range(n):
 	dict[i] = subdict
 
 print("-"*20)
-print("  "*20)
-print("  "*20)
-print("  "*20)
+for i in range(3):
+	print("  "*20)
 print(dict)
 
 print("-"*20)
