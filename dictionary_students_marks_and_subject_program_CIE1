@@ -1,1 +1,36 @@
-a
+
+dict = {}
+n = int(input("Enter the number of student: "))
+for i in range(n):
+	subdict = {}
+	name = input("enter the name: ")
+	usn  = input("enter the USN: ")
+	subject1 = input("enter the Subject1: ")
+	subject2 = input("enter the Subject2: ")
+	subject3 = input("enter the Subject3: ")
+	subject4 = input("enter the Subject4: ")
+	subdict['name'] = name
+	subdict['usn'] = usn
+	subdict['subject1'] = subject1
+	subdict['subject2'] = subject2
+	subdict['subject3'] = subject3
+	subdict['subject4'] = subject4
+	dict[i] = subdict
+
+print("-"*20)
+print("  "*20)
+print("  "*20)
+print("  "*20)
+print(dict)
+
+print("-"*20)
+for i in range(3):
+	print("  "*20)
+
+for i in dict:
+	print(dict[i])
+	print("-"*20)
+
+print("  "*20)
+for i in range(3):
+	print("  "*20)
